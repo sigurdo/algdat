@@ -3,8 +3,10 @@
 
 
 def encode(data, encoding):
-    # Skriv din kode her
-    pass
+    result = ""
+    for char in data:
+        result += encoding[char]
+    return result
 
 
 # Some custom made tests
